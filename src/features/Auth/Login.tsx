@@ -17,7 +17,6 @@ type FormValuesType = {
 
 export const Login = () => {
     const dispatch = useAppDispatch()
-
     const isLoggedIn = useSelector(selectIsLoggedIn);
 
     const formik = useFormik({
